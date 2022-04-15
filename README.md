@@ -31,7 +31,7 @@ with TAdapterCep.GetCidade('31501128', DMCep) do
   begin
     If Codigo > 0 then
     Showmessage(format('Endereço encontrado %d, %s, %s, %s - %s. Bairro %s, %s %s', [codigo, uf, DDD, Logradouro, Complemento, Bairro, Localidade, UF]));
-    Showmessage(format('Outras informações: Código IBGE %s, Código UF %s, CEP Formatado %s', [codigoIbge, Estado, CEP]));
+    Showmessage(format('Outras informações: Código IBGE %s, Código UF %d, CEP Formatado %s', [codigoIbge, Estado, CEP]));
   end;
   ```
 ## Data.CEP
