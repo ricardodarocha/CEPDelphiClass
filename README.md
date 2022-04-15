@@ -46,7 +46,7 @@ Crei o seu próprio Data Module ou repositório de modo a implementar a interfac
 
 ## Mais
 
-Acesse uma lista de todas as cidades e estados atualizados
+Acesse uma lista de todas as [cidades](https://github.com/ricardodarocha/public/tree/main/ibge/cidades.json) e [estados](https://github.com/ricardodarocha/public/tree/main/ibge/estados.json) atualizados no formato json
 
-https://github.com/ricardodarocha/public/tree/main/ibge/cidades.json
-https://github.com/ricardodarocha/public/tree/main/ibge/estados.json
+
+
