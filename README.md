@@ -34,3 +34,12 @@ with TAdapterCep.GetCidade('31501128', DMCep) do
     Showmessage(format('Outras informações: Código IBGE %s, Código UF %s, CEP Formatado %s', [codigoIbge, Estado, CEP]));
   end;
   ```
+## Data.CEP
+
+Contém a classe TDMCep que implementa a interface ICidadeFactory.
+Esta classe é basicamente um DataModule com alguns componentes REST Client, Request, Response que encapsulam o funcionamento HTTP
+É enviada uma solicitação GET na url pública ViaCep.com que retorna um JSON 
+
+## Como estender a aplicação
+
+Crei o seu próprio Data Module ou repositório de modo a implementar a interface ICidadeFactory retornando uma instância de ICidade.
