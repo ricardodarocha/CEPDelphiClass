@@ -1,5 +1,8 @@
 # CEPDelphiClass
-Um Adaptador para conectar na internet, procurar um CEP e retornar os dados de um Município
+Busca Cep, e retorna os dados do endereço
+
+Este projeto contém units para você integrar na sua aplição *Delphi*
+Um Adaptador para conectar na internet, procurar um CEP e retornar os dados de um Município, Endereço, Bairro, DDD e outras informações.
 
 ## Como utilizar
 
