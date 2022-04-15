@@ -43,3 +43,10 @@ Esta classe é basicamente um DataModule com alguns componentes REST Client, Req
 ## Como estender a aplicação
 
 Crei o seu próprio Data Module ou repositório de modo a implementar a interface ICidadeFactory retornando uma instância de ICidade.
+
+## Mais
+
+Acesse uma lista de todas as cidades e estados atualizados
+
+https://github.com/ricardodarocha/public/tree/main/ibge/cidades.json
+https://github.com/ricardodarocha/public/tree/main/ibge/estados.json
