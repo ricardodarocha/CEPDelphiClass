@@ -33,8 +33,10 @@ A classe foi implementada a partir da interface ICidade, o que dispensa um bloco
 with TAdapterCep.GetCidade('31501128', DMCep) do
   begin
     If Codigo > 0 then
-    Showmessage(format('Endereço encontrado %d, %s, %s, %s - %s. Bairro %s, %s %s', [codigo, uf, DDD, Logradouro, Complemento, Bairro, Localidade, UF]));
-    Showmessage(format('Outras informações: Código IBGE %s, Código UF %d, CEP Formatado %s', [codigoIbge, Estado, CEP]));
+    begin
+      Showmessage(format('Endereço encontrado %d, %s, %s, %s - %s. Bairro %s, %s %s', [codigo, uf, DDD, Logradouro, Complemento, Bairro, Localidade, UF]));
+      Showmessage(format('Outras informações: Código IBGE %s, Código UF %d, CEP Formatado %s', [codigoIbge, Estado, CEP]));
+    end;
   end;
   ```
 ## Data.CEP
